@@ -1,0 +1,463 @@
+/* CSS por Rodolfo de Castro */
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.pdl { padding-left: 0 !important;}
+.pdr { padding-right: 0 !important;}
+
+body {}
+
+.topo {
+    background: url('../imgs/bg.png') no-repeat top right;
+    background-size: contain;
+    position: relative;
+    z-index: 10; 
+}
+
+.topo-centro h1{
+    margin: 50px 0 0 0;
+    width: 217px;
+    height: 50px;
+}
+
+.topo-centro h1 a{
+    width: 217px;
+    height: 50px;
+    display: block;
+    overflow: hidden;
+}
+
+.slides .slide {
+    margin-top: 40px;
+}
+
+.slides .slide img {
+    float: right;
+}
+
+.slides .slide p { margin: 50px 0 0 0; position: relative;}
+
+.slides .slide .txt-sld-1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    color: #000;
+    position: absolute;
+}
+
+.slides .slide .txt-sld-2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: #4AC959;
+    position: relative;
+    top: 60px;
+}
+
+.slides .slide .txt-sld-3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    position: relative;
+    top: 60px;
+}
+
+.btn-meet {
+    width: 300px;
+    position: absolute;
+    background: #4AC959;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 10px;
+    bottom: 70px;
+}
+
+.btn-meet a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;   
+    color: #FFFFFF; 
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.btn-meet:hover {
+    background: #48af54;
+}
+
+.btn-meet a:hover {
+    color: #2b2b2b;
+}
+
+.icon-scroll{
+    margin: 30px 0 30px 0;    
+}
+
+.bg-list {
+    background: #000;
+    padding: 95px 0;
+    clip-path: polygon(0 20%, 100% 0, 100% 75%, 0% 100%);
+    margin-top: -30px;
+    position: relative;
+    z-index: 5;
+}
+
+.to-do h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #4AC959;
+    color: #fff;
+}
+
+.to-do p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+}
+
+.planos {
+    background: url('../imgs/bgplanos.png') no-repeat left bottom;
+    margin-bottom: 50px;    
+}
+
+.planos .detalhes {
+    border-top: 20px solid #4AC959;
+    padding-top: 30px;
+    margin: 60px 0 60px 0;
+    background: #fff;
+    text-align: center;
+    height: 581px;
+    box-shadow: 0px 4px 60px rgba(66, 66, 66, 0.2);
+}
+
+.planos .detalhes h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+}
+
+.planos .detalhes h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.planos .detalhes h4 {
+    font-weight: bold !important;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 47px;
+}
+
+.planos .detalhes ul {
+    padding: 0 30px;
+    margin-bottom: 50px;
+}
+
+.planos .detalhes ul li {
+    text-align: left;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.planos .detalhes ul li:hover { color: #48af54; font-weight: 400;}
+
+.planos .detalhes ul li img {
+    padding-right: 15px;
+}
+
+.btn-touch {
+    background: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.btn-touch a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;   
+    color: #FFFFFF; 
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.btn-touch:hover {
+    background: #2b2b2b;
+}
+
+.btn-touch a:hover {
+    color: #ccc;
+}
+
+.area-good {
+    background: url('../imgs/bg-green.png') no-repeat left top;
+    border-radius: 10px;
+    /*background: #4ac958;
+    height: 520px;*/
+}
+
+.area-good h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+    margin: 85px 0 35px 80px;
+}
+
+.area-contato{
+    margin: 70px 0 70px 0;
+}
+
+.area-contato .user-foto {
+    text-align: center;
+}
+
+.get-txt h2 {
+    background: url('../imgs/icon-email.png') no-repeat left top;
+    padding-left: 85px;
+}
+
+.get-txt h2 strong {
+    font-size: 24px;
+}
+
+.form-contato {
+    margin: 10px 0 40px 0;
+}
+
+.form-contato label{
+    display: block;
+    margin: 30px 0 5px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #06152B;
+}
+
+.form-contato input {
+    padding: 10px 20px;
+    color: #2b2b2b;
+    border: 1px solid #06152B;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.form-contato textarea {
+    padding: 10px 20px;
+    color: #2b2b2b;
+    border: 1px solid #06152B;
+    border-radius: 4px;
+    margin: 0 0 30px 0;
+    width: 100%;
+}
+
+.form-contato .btn-send {
+    background: #46BD62;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+}
+
+.form-contato .btn-send:hover {
+    background: #48af54;
+    color: #2b2b2b;
+    cursor: pointer;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    background: #000;
+    text-align: center;
+    color: #fff;
+    padding: 80px 0 0 0;
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+}
+
+footer h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer a {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer a:hover {
+    color: #46BD62;
+    text-decoration: none;
+}
+
+footer .copyright {
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    color: #fff;
+    margin-bottom: 23px;
+}
+
+footer .barra {
+    background: #48af54;
+    display: block;
+    max-width: 511px;
+    height: 41px;
+}
+
+.destaques {
+    padding-left: 80px;
+}
+
+.destaques .box-dest {
+    background: #fff;
+    border-radius: 16px;
+    min-height:  430px;
+    overflow: hidden;
+    box-shadow: 0px 4px 60px rgba(66, 66, 66, 0.2);
+}
+
+.destaques .box-dest img {
+    width: 100%;
+}
+
+.box-dest .seta {
+    background: url('../imgs/icone-coopers.png') no-repeat;
+    width: 49px;
+    height: 56px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    margin: -28px 20px 0 0;
+    position: relative;
+    z-index: 10;
+}
+
+.box-dest h3 {
+    margin: 23px 0 15px 30px;
+    display: inline-block;
+}
+
+.box-dest h3 a {
+    color: #9499B3;
+    font-size: 16px;
+    border: 1px solid #9499B3;
+    padding: 4px 15px;
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.box-dest h3 a:hover { color: #4ac958;}
+
+.box-dest p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 30px;
+}
+
+.box-dest .btn-read {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #42D76B;
+    padding:  0 30px;
+}
+
+.box-dest .btn-read:hover { color: #2b2b2b;}
+
+@media (min-width: 375px) and (max-width: 764px) { 
+    .topo {
+        background-color: #fff;
+          background-size: auto;
+        background-size: 44%;
+    }
+
+    .slides .slide {
+        margin: 10px 0 0 0;
+      }
+
+    .slides .slide p {
+        margin: 10px 0 0 0;
+        position: inherit;
+      }
+
+    .slides .slide .txt-sld-1 {
+        font-size: 36px;
+        position: inherit;
+    }
+
+    .slides .slide .txt-sld-2 {
+        font-size: 30px;
+        position: inherit;
+        top: inherit;
+    }
+
+    .slides .slide .txt-sld-3 {
+        font-size: 28px;
+        position: inherit;
+        top: inherit;
+    }
+
+    .btn-meet {
+        position: inherit;
+        bottom: 2px;
+        padding: 10px 5px;
+        margin: 10px 0 10px 0;bottom: 2px;
+        padding: 10px 5px;
+        margin: 10px 0 10px 0;
+      }
+
+    .destaques {
+        padding: 0 10px !important;
+    }
+
+    .box-dest {
+        margin-bottom: 20px;
+    }
+
+    .box-dest:nth-child(1){ margin-right: 0 !important;}
+    .box-dest:nth-child(2){ margin-right: 0 !important;}
+    
+ }
+
+ @media (min-width: 1024px) and (max-width: 1920px) {
+    .box-dest {
+        max-width: 31.333%;
+    } 
+ }
